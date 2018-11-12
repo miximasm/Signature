@@ -8,7 +8,7 @@ span {
   display: none
 }
 
-#Chron {
+a.Chron {
   display: block;
   background-image: url('https://d.radikal.ru/d41/1811/d1/2b939919f220.png') no-repeat;
   height: 35px;
@@ -16,7 +16,7 @@ span {
   object-fit: contain;
 }
 
-#Chron:hover {
+a.Chron:hover {
   display: block;
   background-image: url('https://c.radikal.ru/c19/1811/78/1174d89d4987.png') no-repeat;
   height: 35px;
