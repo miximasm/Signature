@@ -3,14 +3,3 @@
 p {
   font-family: 'Lobster', serif;
   font-size: 12px; color: rgb(151, 64, 27);
-}
-#Chrono {
-   height: 35px;
-   object-fit: contain;
-}
-
-#Chrono:hover {
-   background-image: url('https://b.radikal.ru/b34/1811/d6/c3fb4a04cfdd.png');
-   height: 35px;
-   object-fit: contain;
-}
