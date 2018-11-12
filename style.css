@@ -6,17 +6,15 @@ p {
 }
 
 #Chron {
-  display: block;
+  display: inline;
   background-image: url('https://d.radikal.ru/d41/1811/d1/2b939919f220.png') no-repeat;
   height: 35px;
   width: 83px;
   object-fit: contain;
-  z-index: 1;
 
 #Chron:hover {
-  display: block;
+  display: inline;
   background-image: url('https://c.radikal.ru/c19/1811/78/1174d89d4987.png') no-repeat;
   height: 35px;
   width: 83px;
   object-fit: contain;
-  z-index: 1;
