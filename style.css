@@ -5,14 +5,16 @@ p {
   font-size: 12px; color: rgb(151, 64, 27);
 }
 #Chrono {
+   display: inline;
    background-image: url('https://d.radikal.ru/d41/1811/d1/2b939919f220.png');
    height: 35px;
-   object-fit: scale-down;
+   object-fit: contain;
 }
 
 #Chrono:hover {
+   display: inline;
    background-image: url('https://d.radikal.ru/d41/1811/d1/2b939919f220.png');
    height: 35px;
-   object-fit: scale-down;
+   object-fit: contain;
    opacity: 0.5;
 }
