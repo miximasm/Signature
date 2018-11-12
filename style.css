@@ -5,10 +5,6 @@ p {
   font-size: 12px; color: rgb(151, 64, 27);
 }
 
-span {
-   display: none;
-}
-
 #Chron {
   display: block;
   background-image: url('https://d.radikal.ru/d41/1811/d1/2b939919f220.png') no-repeat;
