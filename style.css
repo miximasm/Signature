@@ -10,7 +10,6 @@ p {
 }
 
 #Chrono:hover {
-   display: inline;
    background-image: url('https://d.radikal.ru/d41/1811/d1/2b939919f220.png');
    height: 35px;
    object-fit: contain;
