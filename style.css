@@ -4,3 +4,15 @@ p {
   font-family: 'Lobster', serif;
   font-size: 12px; color: rgb(151, 64, 27);
 }
+#Chrono {
+   background-image: url('https://d.radikal.ru/d41/1811/d1/2b939919f220.png');
+   height: 35px;
+   object-fit: scale-down;
+}
+
+#Chrono:hover {
+   background-image: url('https://d.radikal.ru/d41/1811/d1/2b939919f220.png');
+   height: 35px;
+   object-fit: scale-down;
+   opacity: 0.5;
+}
