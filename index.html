@@ -4,38 +4,103 @@
     <title>font</title>
     <style>
       @import url('https://fonts.googleapis.com/css?family=Lobster');
-
 p {
   font-family: 'Lobster', serif;
-  font-size: 12px; color: rgb(151, 64, 27);
+  font-size: 14px; color: rgb(255, 255, 255);
+text-shadow: 0px 0px 3px #C87E39, 0px 0px 3px #C87E39, 0px 0px 3px #C87E39;
+transition: 0.5s ease-in-out
 }
+
+p:hover {
+  font-family: 'Lobster', serif;
+  font-size: 14px; color: rgb(255, 255, 255);
+text-shadow: 0px 0px 6px #C87E39, 0px 0px 7px #C87E39, 0px 0px 8px #C87E39, 0px 0px 9px #C87E39, 0px 0px 10px #C87E39;
+}
+
+td.chron {
+background-image: url(https://a.radikal.ru/a25/1811/f6/3e6d1ae3c28e.png);
+height: 88;
+width: 140;
+background-size: contain;
+transition: 0.5s ease-in-out
+}
+
+td.inv {
+background-image: url(https://c.radikal.ru/c00/1811/97/73f46a042abb.png);
+height: 88;
+width: 140;
+background-size: contain;
+transition: 0.5s ease-in-out
+}
+
+td.mag {
+background-image: url(https://a.radikal.ru/a18/1811/9a/62fcaf6b830f.png);
+height: 88;
+width: 120;
+background-size: contain;
+transition: 0.5s ease-in-out
+}
+
+td.chron:hover {
+background-image: url(https://b.radikal.ru/b04/1811/dd/1e454f7015d7.png);
+height: 88;
+width: 140;
+background-size: contain;
+}
+
+td.inv:hover {
+background-image: url(https://a.radikal.ru/a05/1811/e4/6378e7429b57.png);
+height: 88;
+width: 140;
+background-size: contain;
+}
+
+td.mag:hover {
+background-image: url(https://a.radikal.ru/a04/1811/8d/80cca74a8df5.png);
+height: 88;
+width: 120;
+background-size: contain;
+}
+
+img.norm {
+height: 82;
+width: 140;
+}
+
+img.small {
+height: 82;
+width: 120;
+}
+
+div#preload {
+    display: none;
+}
+
     </style>
   </head>
   <body>
-    <table  style="background-image: url(https://d.radikal.ru/d04/1811/72/978a282a9c19.png);
-  width: 450px; height: 77px;";>
-      <tr align="center">
-        <td rowspan="2"><a target="_blank" href="https://drive.google.com/file/d/1ZyzXxQywCTrfL3yfzWqXMsj9PqdSvyrE/view?usp=sharing"><img src="https://d.radikal.ru/d12/1811/0d/4c19c110ecd5.png"/></a></td>
-        <td height="37" align="left">
-          <a target="_blank" href="http://www.amalirr.com/t1674-topic#96773">
-          <img src="https://d.radikal.ru/d14/1811/c3/dc060eb47584.png" onmouseover="this.src='https://a.radikal.ru/a13/1811/ef/d1c55821e71d.png'" onmouseout="this.src='https://d.radikal.ru/d14/1811/c3/dc060eb47584.png'" />
-          </a>
-          <img src="https://c.radikal.ru/c07/1811/1a/8abb8c413b45.png" width="10"/>
-          <a target="_blank" href="http://www.amalirr.com/t1673-topic#96772">
-          <img src="https://c.radikal.ru/c23/1811/4b/5199e9a22711.png" onmouseover="this.src='https://c.radikal.ru/c14/1811/60/04834f6dda4f.png'" onmouseout="this.src='https://c.radikal.ru/c23/1811/4b/5199e9a22711.png'" />
-          </a> 
-          <a target="_blank" href="http://www.amalirr.com/t1675-topic#96774">
-          <img src="https://d.radikal.ru/d08/1811/0b/4516b4f08409.png" onmouseover="this.src='https://b.radikal.ru/b40/1811/1b/9f4a866913e9.png'" onmouseout="this.src='https://d.radikal.ru/d08/1811/0b/4516b4f08409.png'" />
-          </a>   
-        </td>
-      </tr>
-      <tr>
-        <td align="center">
-          <div>
-            <p>Жив, здоров и на судьбу не жалуется.</p>
-          </div>
-        </td>
-      </tr>
-    </table>
+<table border="0">
+  <tr>
+<td class="chron"><a target="_blank" href="http://www.amalirr.com/t1674-topic#96773"><img class="norm" src="https://c.radikal.ru/c07/1811/1a/8abb8c413b45.png"/></a></td>
+<td class="inv"><a target="blank" href="http://www.amalirr.com/t1673-topic#96772"><img class="norm" src="https://c.radikal.ru/c07/1811/1a/8abb8c413b45.png"/></a></td>
+<td class="mag"><a target="blank" href="http://www.amalirr.com/t1675-topic#96774"><img class="small" src="https://c.radikal.ru/c07/1811/1a/8abb8c413b45.png"/></a></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"><p>Жив, здоров, не кашляет и на судьбу не жалуется</p></td>
+  </tr>
+</table>
   </body>
+<div id="preload">
+<img src="https://a.radikal.ru/a25/1811/f6/3e6d1ae3c28e.png" />
+<img src="https://c.radikal.ru/c00/1811/97/73f46a042abb.png" />
+<img src="https://a.radikal.ru/a28/1811/ab/c6a30777ca18.png" />
+<img src="https://b.radikal.ru/b04/1811/dd/1e454f7015d7.png" />
+<img src="https://a.radikal.ru/a05/1811/e4/6378e7429b57.png" />
+<img src="https://c.radikal.ru/c26/1811/14/85113b75a953.png" />
+</div>
+
+
+  </body>
+</html>
+
 </html>
