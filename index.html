@@ -7,7 +7,7 @@
 
 html {
   -webkit-filter: hue-rotate(0deg); /* Safari 6.0 - 9.0 */
-  filter: hue-rotate(0deg);
+  filter: sepia(20%) contrast(90%) hue-rotate(160deg) brightness(100%);
 }
 
 
@@ -17,12 +17,13 @@ top: 52px;
 left: 112px;  font-family: 'Amatic SC', serif;
   font-size: 20px; color: #fff2e2;
 text-shadow: 0px 0px 1px #000000, 0px 0px 1px #000000, 0px 0px 2px #000000, 0px 0px 3px #000000, 0px 0px 3px #000000;
+filter: saturate(0%);
 
 }
 
 a.handle {
 display: block;
-background: url('https://b.radikal.ru/b23/1811/40/5aaeadfc0578.png') no-repeat;
+background: url('http://b.radikal.ru/b18/1912/4e/8f1a48270972.png') no-repeat;
 background-size: contain;
 filter: hue-rotate(180);
 float:left;
@@ -33,9 +34,9 @@ width: 90px
 a.chron {
 display: block;
 float:left;
-background: url('https://c.radikal.ru/c14/1811/71/d6c0547c230b.png') no-repeat;
+background: url('http://a.radikal.ru/a21/1912/46/6096bdb45f42.png'), url('https://c.radikal.ru/c14/1811/71/d6c0547c230b.png') no-repeat;
 background-size: contain;
-filter: hue-rotate(180);
+filter: saturate(0%);
 height: 48px;
 width: 103px;
     -webkit-transition: .5s all;    
@@ -48,9 +49,9 @@ width: 103px;
 a.inv {
 display: block;
 float:left;
-background: url('https://d.radikal.ru/d11/1811/9c/89e13ca014d7.png') no-repeat;
+background: url('http://d.radikal.ru/d41/1912/5d/c2211c027517.png'), url('https://d.radikal.ru/d11/1811/9c/89e13ca014d7.png') no-repeat;
 background-size: contain;
-filter: hue-rotate(180);
+filter: saturate(0%);
 height: 48px;
 width: 104px;
     -webkit-transition: .5s all;    
@@ -62,9 +63,9 @@ width: 104px;
 a.mag {
 display: block;
 float:left;
-background: url('https://d.radikal.ru/d36/1811/31/d3590b079fdb.png') no-repeat;
+background: url('http://d.radikal.ru/d37/1912/3b/6a48fbf935b2.png'), url('https://d.radikal.ru/d36/1811/31/d3590b079fdb.png') no-repeat;
 background-size: contain;
-filter: hue-rotate(180) brightness(100%);
+filter: saturate(0%);
 height: 48px;
 width: 104px;
     -webkit-transition: .5s all;    
@@ -74,22 +75,22 @@ width: 104px;
     transition: .5s all;   }
 
 a.chron:hover{
-background: url('https://b.radikal.ru/b20/1811/22/b2a819edcea5.png') no-repeat;
+background:  url('http://a.radikal.ru/a21/1912/46/6096bdb45f42.png'), url('https://b.radikal.ru/b20/1811/22/b2a819edcea5.png') no-repeat;
 background-size: contain;
-filter: hue-rotate(180);
+filter: saturate(100%) hue-rotate(80deg);
 }
 
 a.inv:hover{
-background: url('https://b.radikal.ru/b04/1811/a4/f4e44f2e8a49.png') no-repeat;
+background: url('http://d.radikal.ru/d41/1912/5d/c2211c027517.png'), url('https://b.radikal.ru/b04/1811/a4/f4e44f2e8a49.png') no-repeat;
 background-size: contain;
-filter: hue-rotate(180);
+filter: saturate(100%) hue-rotate(80deg);
  
 }
 
 a.mag:hover{
-background: url('https://c.radikal.ru/c32/1811/ac/c122a092f554.png') no-repeat;
+background: url('http://d.radikal.ru/d37/1912/3b/6a48fbf935b2.png'), url('https://c.radikal.ru/c32/1811/ac/c122a092f554.png') no-repeat;
 background-size: contain;
-filter: hue-rotate(180);
+filter: saturate(100%) hue-rotate(80deg);
 }
 
 div.preload {
@@ -98,6 +99,17 @@ display: none}
 </head>
 <body>
 <a class="handle" href="https://drive.google.com/file/d/1ZyzXxQywCTrfL3yfzWqXMsj9PqdSvyrE/view?usp=sharing" target="_blank"></a><a class="chron" href="http://www.amalirr.com/t1674-topic#96773" target="_blank"></a><a class="inv" href="http://www.amalirr.com/t1673-topic#96772" target="_blank"></a><a class="mag" href="http://www.amalirr.com/t1675-topic#96774" target="_blank"></a><p><a class="text">Насторожен, осторожен, цел...</a></p>
-<div class="preload"> <img src="https://b.radikal.ru/b20/1811/22/b2a819edcea5.png" /><img src="https://b.radikal.ru/b04/1811/a4/f4e44f2e8a49.png" /><img src="https://c.radikal.ru/c32/1811/ac/c122a092f554.png" /></div>
+<div class="preload">
+<img src="http://b.radikal.ru/b18/1912/4e/8f1a48270972.png" />
+<img src="http://a.radikal.ru/a21/1912/46/6096bdb45f42.png" />
+<img src="https://c.radikal.ru/c14/1811/71/d6c0547c230b.png" />
+<img src="http://d.radikal.ru/d41/1912/5d/c2211c027517.png" />
+<img src="https://d.radikal.ru/d11/1811/9c/89e13ca014d7.png" />
+<img src="http://d.radikal.ru/d37/1912/3b/6a48fbf935b2.png" />
+<img src="https://d.radikal.ru/d36/1811/31/d3590b079fdb.png" />
+<img src="https://b.radikal.ru/b20/1811/22/b2a819edcea5.png" />
+<img src="https://b.radikal.ru/b04/1811/a4/f4e44f2e8a49.png" />
+<img src="https://c.radikal.ru/c32/1811/ac/c122a092f554.png" />
+</div>
   </body>
 </html>
